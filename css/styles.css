@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(57, 62, 70); /*perfect match*/
+  font-family: "Indie Flower", cursive, sans-serif;
+  text-align: center;
+}
+
+footer {
+  margin: 10% 0 0;
+}
+
+.heading {
+  color: rgb(80, 205, 165); /*perfect match if rounding to nearest, otherwise off by 3 euclidean*/
+  font-family: "Lobster", cursive, sans-serif;
+  font-size: 8rem;
+  margin: 30px;
+  min-height: 20rem;
+  text-shadow: 5px 0 0 rgb(40, 40, 53); /*none more than 5 off, overall off by 6.5 euclidean*/
+}
+
+.player-die {
+  display: inline-block;
+  margin: 20px;
+}
+
+.player-title {
+  color: rgb(80, 205, 165);
+  font-size: 2rem;
+}
+
+.die-img {
+  width: 80%;
+}
+
+.app-brewery-link {
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+}
+
+.note {
+  color: rgb(238, 238, 238);
+  font-family: sans-serif;
+  font-size: 9px;
+}
+
+/********************************Mobile Devices********************************/
+
+@media (max-width: 800px) {
+  .heading {
+    font-size: 3rem;
+    min-height: 8rem;
+  }
+
+  .player-die {
+    margin: 5px;
+    width: 40vw;
+  }
+
+  .player-title {
+    font-size: 1rem;
+  }
+}
